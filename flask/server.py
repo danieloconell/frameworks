@@ -1,6 +1,9 @@
+import logging
+
 from flask import Flask
 
 app = Flask(__name__)
+logging.getLogger('werkzeug').disabled = True
 
 
 @app.route("/greet/<string:name>")
