@@ -1,4 +1,4 @@
-import Bao from "baojs";
+import { Bao } from "baojs";
 
 const app = new Bao();
 

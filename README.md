@@ -8,6 +8,7 @@ Each project creates a simple REST API that has one endpoint: `/greet/<name>`. T
 | Framework         | Request/Sec   | Transfer/Sec | Codebase Size | Executable Size |
 |:------------------|--------------:| ------------:| -------------:| ---------------:|
 | Fiber             | 148105.21     | 17.94MB      | 24K           | 8.4M            |
+| Bun + Hono        | 135832.84     | 16.32MB      | 2.0M          | NA              |
 | Gin               | 129058.80     | 15.63MB      | 20K           | 9.6M            |
 | Drogon            | 123208.46     | 17.39MB      | 39M           | 2.5M            |
 | Actix             | 109199.35     | 13.33MB      | 1.0G          | 4.7M            |
